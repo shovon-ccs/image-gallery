@@ -1,6 +1,7 @@
 import React from 'react'
 import NavBar from './componenets/nav/index'
 import Header from './componenets/header'
+import Gallery from './componenets/gallery'
 
 const HomePage = () => {
   return (
@@ -8,6 +9,7 @@ const HomePage = () => {
       <div className='w-full max-w-7xl mx-auto p-20 bg-slate-100 rounded-2xl shadow-lg'>
         <NavBar />
         <Header />
+        <Gallery />
         <h1 className='text-green-500 text-5xl font-bold'>Home Page</h1>
       </div>
       
